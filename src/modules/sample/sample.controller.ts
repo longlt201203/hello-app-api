@@ -13,7 +13,7 @@ import { ApiResponseDto } from "@utils";
 import { ApiTags } from "@nestjs/swagger";
 
 @Controller("sample")
-@ApiTags()
+@ApiTags("Sample")
 export class SampleController {
 	constructor(private readonly sampleService: SampleService) {}
 
