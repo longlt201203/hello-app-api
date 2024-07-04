@@ -4,6 +4,7 @@ metadata:
   namespace: default
   name: hello-app-api-service
 spec:
+  type: ClusterIP
   selector:
     app: hello-app-api
   ports:

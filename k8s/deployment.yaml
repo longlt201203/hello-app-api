@@ -16,6 +16,7 @@ spec:
       containers:
       - name: hello-app-api
         image: longthanhle1122/hello-app-api:latest
+        imagePullPolicy: Always
         resources:
           limits:
             memory: "128Mi"
