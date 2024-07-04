@@ -12,6 +12,9 @@ export const Env = {
 	DB_PASS: process.env.DB_PASS || "",
 
 	GLOBAL_PREFIX: process.env.GLOBAL_PREFIX || "/api",
+
+	MY_CONFIG: process.env.MY_CONFIG || "",
+	MY_SECRET: process.env.MY_SECRET || "",
 } as const;
 
 console.log(Env);
